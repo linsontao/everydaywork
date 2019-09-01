@@ -1,8 +1,9 @@
-import Person.person;
+import Member.Person;
+import Member.Student;
 
 public class Main {
     public static void main(String[] args) {
-        person lintao = new person("lintao",'m',23);
-        System.out.println(lintao.getName());
+        Student lintao = new Student("lintao",'m',23, 99);
+        System.out.println(lintao.getName(90));
     }
 }
